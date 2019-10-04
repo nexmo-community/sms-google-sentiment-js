@@ -1,0 +1,8 @@
+.env
+.DS_Store
+npm-debug.log
+google_creds.json
+files/*
+private.key
+node_modules*
+package-lock.json

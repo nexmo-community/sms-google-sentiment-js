@@ -1,0 +1,18 @@
+{
+  "name": "SMS Sentiment Analysis with Nexmo & Google Cloud Sentiment Analysis",
+  "description": "Example using Google Cloud Sentiment Analysis to analyze SMS messages and determine the sentiment of the text.",
+  "keywords": ["sentiment analysis", "sms", "nodejs", "Google Cloud Sentiment Analysis", "nexmo"],
+  "website": "",
+  "repository": "https://github.com/nexmo-community/sms-sentiment-google-js",
+  "env": {
+    "GOOGLE_CLIENT_EMAIL": {
+      "description": "The client_email property from your google_creds.json file.",
+      "value": "service_account_name@project.iam.gserviceaccount.com",
+      "required" : true
+    },
+    "GOOGLE_PRIVATE_KEY": {
+      "description": "The private_key property from your google_creds.json file. Make sure to copy and paste everything here.",
+      "value": "-----BEGIN PRIVATE KEY-----",
+      "required" : true
+    }
+  }

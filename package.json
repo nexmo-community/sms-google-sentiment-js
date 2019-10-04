@@ -1,0 +1,19 @@
+{
+  "name": "sms-sentiment-google",
+  "version": "1.0.0",
+  "description": "Sentiment analysis for SMS messages using Google Cloud Sentiment Analysis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "contributors": [
+    "Kelly Andrews <kelly.andrews@nexmo.com> (http://www.twitter.com/kellyjandrews)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/language": "^3.4.0",
+    "body-parser": "1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "4.16.4"
+  }
+}
