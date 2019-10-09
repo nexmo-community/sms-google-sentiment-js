@@ -1,6 +1,6 @@
 # SMS Sentiment Analysis with Google Natural Language API
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://nexmo.dev/google-nexmo-sms-analysis-heroku)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://nexmo.dev/google-sms-sentiment-heroku)
 
 This example uses Google Natural Language API to analyze SMS messages and determine the sentiment of the text.
 
